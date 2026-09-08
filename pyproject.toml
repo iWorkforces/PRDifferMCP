@@ -18,16 +18,16 @@ classifiers = [
     "Topic :: Software Development :: Version Control :: Git",
 ]
 dependencies = [
-    "fastmcp>=3.4.7",
-    "pydantic>=2.13.4",
+    "fastmcp>=4.0.3",
+    "pydantic>=2.13.5",
     "fastapi[standard]>=0.141.1",
     "uvicorn[standard]>=0.52.4",
     "pygithub>=2.10.0",
     "asyncer>=0.0.18",
-    "anyio>=4.14.2",
+    "anyio>=4.15.1",
     "python-dotenv>=1.2.3",
     "dynaconf>=3.3.5",
-    "mcp>=2.1.1",
+    "mcp>=2.2.0",
     "uvloop>=0.22.1",
     "httptools>=0.8.0",
     "starlette>=1.6.0",
@@ -64,12 +64,12 @@ packages = ["prdiffer"]
 
 [dependency-groups]
 dev = [
-    "ruff>=0.16.5",
+    "ruff>=0.16.6",
     "pytest>=9.1.1",
     "pytest-asyncio>=1.4.0",
     "pytest-cov>=7.1.0",
     "pytest-xdist>=3.8.0",
-    "ty>=0.0.75",
+    "ty>=0.0.79",
     "vulture>=2.16",
     "pyright>=1.1.411",
 ]
