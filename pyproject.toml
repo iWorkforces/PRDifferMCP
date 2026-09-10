@@ -1,7 +1,7 @@
 [project]
 name = "prdiffer"
 version = "0.6.4"
-description = "MCP Server For GitHub PR/GitLab MR Review Process With Full Contexts"
+description = "PRDiffer Is A MCP Server For GitHub PR/GitLab MR Review Process With Full Contexts"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
@@ -69,9 +69,9 @@ dev = [
     "pytest-asyncio>=1.4.0",
     "pytest-cov>=7.1.0",
     "pytest-xdist>=3.8.0",
-    "ty>=0.0.79",
+    "ty>=0.0.80",
     "vulture>=2.16",
-    "pyright>=1.1.411",
+    "pyright>=1.1.413",
 ]
 
 [tool.pytest.ini_options]
